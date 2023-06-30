@@ -1,8 +1,0 @@
-# ninja log v5
-1	278	1688124941639622311	CMakeFiles/untitled16.dir/src/AbstractLogger.cpp.o	e832f60e07e55b9b
-2	291	1688124941651524319	CMakeFiles/untitled16.dir/src/DebugLogger.cpp.o	40f1f30dbbd1c0e1
-0	296	1688124941657839928	CMakeFiles/untitled16.dir/src/main.cpp.o	ed42d3349714882f
-1	302	1688124941664427914	CMakeFiles/untitled16.dir/src/ErrorLogger.cpp.o	453fd611179900e5
-1	305	1688124941667939638	CMakeFiles/untitled16.dir/src/Logger.cpp.o	c965339bed7b5469
-1	319	1688124941681682445	CMakeFiles/untitled16.dir/src/WarningLogger.cpp.o	6ed65354dfeecfe1
-319	351	1688124941715701962	untitled16	42a2c71bdfc7578b

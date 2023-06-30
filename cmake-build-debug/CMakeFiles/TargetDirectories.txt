@@ -1,3 +1,0 @@
-/Users/iskanderbagautdinov/Repositories/logger/cmake-build-debug/CMakeFiles/untitled16.dir
-/Users/iskanderbagautdinov/Repositories/logger/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/iskanderbagautdinov/Repositories/logger/cmake-build-debug/CMakeFiles/rebuild_cache.dir
