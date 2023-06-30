@@ -8,7 +8,7 @@ public:
     DebugLogger();
 
 protected:
-    void writeMessage(const std::string &message, std::vector<std::string> &logData) override;
+    void writeMessage(const std::string &, std::vector<std::string> &) override;
 };
 
 #endif // DEBUG_LOGGER_H

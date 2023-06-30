@@ -4,23 +4,23 @@
 #include <string>
 #include <vector>
 #include "AbstractLogger.h"
+#include "ErrorLogger.h"
+#include "WarningLogger.h"
+#include "DebugLogger.h"
 
 class Logger {
 private:
-    std::vector<AbstractLogger *> loggers;
+    AbstractLogger *loggerChain;
     std::vector<std::string> logData;
-
+    AbstractLogger *errorLogger;
+    AbstractLogger *warningLogger;
+    AbstractLogger *debugLogger;
 public:
     Logger();
-
     ~Logger();
-
-    void logError(const std::string &message);
-
-    void logWarning(const std::string &message);
-
-    void logDebug(const std::string &message);
-
+    void logError(const std::string &);
+    void logWarning(const std::string &);
+    void logDebug(const std::string &);
     const std::vector<std::string> &getLogData() const;
 };
 
